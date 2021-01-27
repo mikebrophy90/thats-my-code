@@ -9,16 +9,16 @@ body {
     background: rgba(0, 0, 0, 0.2)
 }
 nav {
-    background: linear-gradient(-60deg, #151e31, #050a13);
+    background: linear-gradient(-60deg, #03283a, #00374d);
 }
 .logo, label, .nav-links li a {
     color: #fafafa;
 }
 .nav-links {
-    background: #0d0f13;
+    background: #111111;
 }
 .nav-links li a:hover {
-    color: #576fa3;
+    color: #03668d;
     text-decoration: none;
     transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -75,8 +75,8 @@ nav {
     height: 100px;
 }
 .logo {
-    margin-left: 50px;
-    margin-top: 5px;
+    margin-left: 25px;
+    margin-top: 20px;
     padding: 15px 0;
     float: left;
     width: 33%;
@@ -84,7 +84,7 @@ nav {
     animation: fadein 2s;
 }
 .logo img{
-    width: 400px;
+    width: 300px;
 }
 
 .nav-links {
@@ -102,7 +102,7 @@ nav {
 }
 .nav-links li {
     display: block;
-    line-height: 80px;
+    line-height: 30px;
     text-align: center;
     margin-top: 50px;
     
@@ -115,7 +115,18 @@ li a {
     letter-spacing: 5px;
     animation: fadein 2s;
 }
-
+#logout{
+    display: block;
+    position: relative;
+    bottom: -50px;
+    margin: 0 auto;
+    background-color: #00374d;
+    border: #fafafa 1px solid ;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    color: #fafafa;
+}
 /*------------burger toggle*/
 
 label #btn {
@@ -150,12 +161,18 @@ label #cancel {
 #check:checked ~ label #cancel {
     display: block;
 }
+/*-----------------------------------------main*/
+
+.main{
+    height: 1000px;
+}
+
 /*-----------------------------------------footer*/
 
 footer{
     height: 200px;
-    background-color: #0d0f13;
-    position: absolute;
+    background: #111111;
+    position: relative;
     bottom: 0px;
     width: 100%;
     display: flex;
