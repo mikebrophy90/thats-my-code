@@ -9,13 +9,13 @@ body {
     background: rgba(0, 0, 0, 0.2)
 }
 nav {
-    background: #111111;
+    background: #1b1b1b;
 }
 .logo, label, .nav-links li a {
     color: #fafafa;
 }
 .nav-links {
-    background: #1b1b1b;
+    background: #242424;
 }
 .nav-links li a:hover {
     color: #03668d;
@@ -217,6 +217,21 @@ footer{
     color: #fafafa;
     text-align: center;
 }
+.back-home{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.back-home a{
+    color: #111111;
+    text-decoration: none;
+}
+.back-home a:hover{
+    color: #03668d;
+     transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
 /*-----------------------------------------keyframes*/
 
 @keyframes fadein {
@@ -228,3 +243,14 @@ footer{
     }
 }
 
+
+@media only screen and (min-width: 600px){
+
+    .footer-links{
+        flex-direction: row;
+}
+.footer-links div{
+    width: 33.3%;
+    text-align: center;
+}
+}
