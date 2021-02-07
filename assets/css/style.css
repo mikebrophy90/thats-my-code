@@ -182,7 +182,42 @@ label #cancel {
 /*-----------------------------------------main*/
 
 .main{
-    height: 1000px;
+    height: 500px;
+}
+.reg-search-bar{
+    text-align: center;
+}
+.reg-search-bar input[type=text] {
+  width: 80%;
+  max-width: 400px;
+  padding: 6px;
+  margin-top: 100px;
+  margin-right: 0;
+  font-size: 17px;
+  border: solid black 2px;
+  border-radius: 5px 0 0 5px;
+  background-color: #ffc400;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+}
+.reg-search-bar ::placeholder{
+    text-transform: none;
+    color: #1b1b1b;
+}
+
+.reg-search-bar button {
+  padding: 6px 10px;
+  margin: 0;
+  background: #00668f;
+  color: #fafafa;
+  font-size: 17px;
+  border: solid black 2px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.reg-search-bar  button:hover {
+  background: #01364b;
 }
 
 /*-----------------------------------------footer*/
