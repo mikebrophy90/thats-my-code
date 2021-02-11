@@ -181,10 +181,11 @@ label #cancel {
 }
 /*-----------------------------------------main*/
 
-.main{
+.search{
     height: 500px;
 }
 .reg-search-bar{
+    margin-top: 100px;
     text-align: center;
 }
 .reg-search-bar input[type=text] {
@@ -219,7 +220,46 @@ label #cancel {
 .reg-search-bar  button:hover {
   background: #01364b;
 }
+.vin-search{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.vin-search-bar{
+    margin-top: 100px;
+    text-align: center;
+}
+.vin-search-bar input[type=text] {
+  width: 80%;
+  max-width: 400px;
+  padding: 6px;
+  margin-top: 100px;
+  margin-right: 0;
+  font-size: 17px;
+  border: solid black 2px;
+  border-radius: 5px 0 0 5px;
+  background-color: #fafafa;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+}
+.vin-search-bar ::placeholder{
+    text-transform: none;
+    color: #1b1b1b;
+}
 
+.vin-search-bar button {
+  padding: 6px 10px;
+  margin: 0;
+  background: #00668f;
+  color: #fafafa;
+  font-size: 17px;
+  border: solid black 2px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.vin-search-bar  button:hover {
+  background: #01364b;
+}
 /*-----------------------------------------footer*/
 
 footer{
@@ -266,6 +306,23 @@ footer{
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
+}
+.company-logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-gap: 1rem;
+    grid-auto-flow: dense;
+    padding: 1rem;
+    padding-bottom: 25px;
+    animation: fadein 2s;
+}
+.box {
+    display: block;
+}
+.box img {
+    width: 100%;
+    overflow: hidden;
+    transition:all 0.5s;
 }
 /*-----------------------------------------keyframes*/
 
