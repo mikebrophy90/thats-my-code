@@ -260,6 +260,10 @@ label #cancel {
 .vin-search-bar  button:hover {
   background: #01364b;
 }
+.reg-search{
+    margin-top: 10px;
+    cursor: pointer;
+}
 /*-----------------------------------------footer*/
 
 footer{
